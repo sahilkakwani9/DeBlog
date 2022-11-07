@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(to top, rgb(187, 247, 208), rgb(134, 239, 172), rgb(59, 130, 246)) */
+  background: #fff;
+  /* background-image: url("./Assets/BG1.png"); */
+  /*background-size: 100vw;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  */
+  /* overflow: hidden; */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a8ff78;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.glass {
+  /* background-color: rgba(255, 255, 255, 0.01); */
+  z-index: 2;
+  backdrop-filter: blur(50px);
+}
+
+.glass-strong {
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 2;
+  backdrop-filter: blur(100px);
+}
+
+.gradient {
+  font-size: 72px;
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Scroll::-webkit-scrollbar {
+  background-color: #121212;
+  background-color: transparent;
+}
+
+.Scroll::-webkit-scrollbar-track {
+  width: 5px;
+  background-color: transparent;
+}
+
+.Scroll::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #121212;
+}
+
+.confetiScren {
+  margin: 40% ;
+}
